@@ -1,0 +1,15 @@
+from typing import List
+
+
+class Solution:
+    def maxScoreSightseeingPair(self, values: List[int]) -> int:
+        best = values[0]
+        res = float('-inf')
+        for j in range(1, len(values)):
+            res = max(res, best + values[j] - j)
+            best = max(best, values[j] + j)
+        return res
+
+
+if __name__ == "__main__":
+    print(Solution().maxScoreSightseeingPair([8, 1, 5, 2, 6]))
