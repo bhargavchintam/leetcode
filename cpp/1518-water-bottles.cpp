@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+class Solution{
+public:
+    int numWaterBottles(int numBottles,int numExchange){
+        int total=numBottles,empty=numBottles;
+        while(empty>=numExchange){
+            int newB=empty/numExchange;
+            total+=newB;
+            empty=empty%numExchange+newB;
+        }
+        return total;
+    }
+};
+int main(){
+    Solution s;
+    cout<<s.numWaterBottles(9,3)<<endl;
+}
