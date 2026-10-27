@@ -21,3 +21,33 @@ SQL is written MySQL-style. The four `bash/` ones are the LeetCode shell problem
 
 Mostly the standard approach for each problem — hash maps, two pointers, BFS/DFS, DP, the usual. Nothing
 clever for its own sake.
+
+## Index
+
+The folders are split by language, not by topic, so this index goes by language and by problem number.
+File names start with the problem number padded to four digits, so each folder lists in problem order.
+To jump to one problem on GitHub, press `t` and type its number.
+
+### By language
+
+| Language | Folder | Solutions | Problem numbers (lowest to highest) |
+|---|---|---:|---|
+| Python | [`python/`](python/) | 428 | 1 to 2399 |
+| C++ | [`cpp/`](cpp/) | 232 | 101 to 2160 |
+| Java | [`java/`](java/) | 162 | 211 to 2549 |
+| C | [`c/`](c/) | 69 | 331 to 1200 |
+| SQL | [`sql/`](sql/) | 40 | 175 to 1179 |
+| Bash | [`bash/`](bash/) | 4 | 192 to 195 |
+| **Total** | | **935** | **1 to 2549** |
+
+### By problem number
+
+| Problem numbers | Python | C++ | Java | C | SQL | Bash | Total |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 1 to 499 | 58 | 55 | 55 | 43 | 13 | 4 | 228 |
+| 500 to 999 | 153 | 55 | – | 1 | 26 | – | 235 |
+| 1000 to 1499 | 84 | 32 | – | 25 | 1 | – | 142 |
+| 1500 to 1999 | 63 | 32 | 57 | – | – | – | 152 |
+| 2000 to 2499 | 70 | 58 | 40 | – | – | – | 168 |
+| 2500 and up | – | – | 10 | – | – | – | 10 |
+| **Total** | **428** | **232** | **162** | **69** | **40** | **4** | **935** |
