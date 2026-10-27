@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 292" width="600" height="292" role="img" aria-labelledby="chart-title chart-desc">
+  <title id="chart-title">LeetCode solutions per language</title>
+  <desc id="chart-desc">Horizontal bar chart of solution files per language folder, 935 in total: Python 428, C++ 232, Java 162, C 69, SQL 40, Bash 4. Bar length is to scale, one unit per solution.</desc>
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .title { font-size: 17px; font-weight: 600; fill: #0b0b0b; }
+    .sub { font-size: 13px; fill: #52514e; }
+    .label { font-size: 13px; fill: #52514e; }
+    .value { font-size: 13px; font-weight: 600; fill: #0b0b0b; }
+    .bar { fill: #2a78d6; }
+    .axis { stroke: #c3c2b7; stroke-width: 1; }
+    @media (prefers-color-scheme: dark) {
+      .title, .value { fill: #f0efec; }
+      .sub, .label { fill: #c3c2b7; }
+      .bar { fill: #3987e5; }
+      .axis { stroke: #383835; }
+    }
+  </style>
+
+  <text class="title" x="16" y="30">Solutions per language</text>
+  <text class="sub" x="16" y="52">935 solutions in total. Bar length is to scale.</text>
+
+  <line class="axis" x1="107.5" y1="72" x2="107.5" y2="276"/>
+
+  <g>
+    <title>Python: 428 solutions</title>
+    <text class="label" x="96" y="93.5" text-anchor="end">Python</text>
+    <path class="bar" data-solutions="428" d="M108 79 H532 A4 4 0 0 1 536 83 V95 A4 4 0 0 1 532 99 H108 Z"/>
+    <text class="value" x="544" y="93.5">428</text>
+  </g>
+  <g>
+    <title>C++: 232 solutions</title>
+    <text class="label" x="96" y="127.5" text-anchor="end">C++</text>
+    <path class="bar" data-solutions="232" d="M108 113 H336 A4 4 0 0 1 340 117 V129 A4 4 0 0 1 336 133 H108 Z"/>
+    <text class="value" x="348" y="127.5">232</text>
+  </g>
+  <g>
+    <title>Java: 162 solutions</title>
+    <text class="label" x="96" y="161.5" text-anchor="end">Java</text>
+    <path class="bar" data-solutions="162" d="M108 147 H266 A4 4 0 0 1 270 151 V163 A4 4 0 0 1 266 167 H108 Z"/>
+    <text class="value" x="278" y="161.5">162</text>
+  </g>
+  <g>
+    <title>C: 69 solutions</title>
+    <text class="label" x="96" y="195.5" text-anchor="end">C</text>
+    <path class="bar" data-solutions="69" d="M108 181 H173 A4 4 0 0 1 177 185 V197 A4 4 0 0 1 173 201 H108 Z"/>
+    <text class="value" x="185" y="195.5">69</text>
+  </g>
+  <g>
+    <title>SQL: 40 solutions</title>
+    <text class="label" x="96" y="229.5" text-anchor="end">SQL</text>
+    <path class="bar" data-solutions="40" d="M108 215 H144 A4 4 0 0 1 148 219 V231 A4 4 0 0 1 144 235 H108 Z"/>
+    <text class="value" x="156" y="229.5">40</text>
+  </g>
+  <g>
+    <title>Bash: 4 solutions</title>
+    <text class="label" x="96" y="263.5" text-anchor="end">Bash</text>
+    <path class="bar" data-solutions="4" d="M108 249 H108 A4 4 0 0 1 112 253 V265 A4 4 0 0 1 108 269 H108 Z"/>
+    <text class="value" x="120" y="263.5">4</text>
+  </g>
+</svg>
